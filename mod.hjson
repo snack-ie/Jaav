@@ -8,7 +8,7 @@ name: "jaav"
 author: "me"
 
 #the fully qualified main class of the mod
-main: "jaav.Mod"
+main: "jaav.JaavMod"
 
 #the mod description as seen in the mod dialog
 description: "funni java mod."
