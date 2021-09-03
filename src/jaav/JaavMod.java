@@ -11,7 +11,7 @@ import mindustry.ui.dialogs.*;
 
 public class JaavMod extends Mod{
 
-    public ExampleJavaMod(){
+    public JaavMod(){
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
