@@ -8,7 +8,7 @@ public class SplitUnitEntity extends UnitEntity {
     public void killed(){
         super.killed();
         Log.info("it's dead")
-        Log.info(test)
+        Log.info(test);
     }
     
 }
