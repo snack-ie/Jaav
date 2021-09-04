@@ -14,6 +14,6 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        Log.info(type);
+        Log.info(type.splitUnit);
     }
 }
