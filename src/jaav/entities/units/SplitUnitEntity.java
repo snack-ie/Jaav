@@ -6,7 +6,6 @@ import mindustry.gen.*;
 
 public class SplitUnitEntity extends UnitEntity {
     
-    UnitType splitUnit;
     String text = type.text;
     
     @Override
@@ -18,6 +17,6 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        this.splitUnit = type.splitUnit;
+        UnitType splitUnit = type.splitUnit;
     }
 }
