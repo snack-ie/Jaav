@@ -5,6 +5,7 @@ import arc.graphics.*;
 import arc.struct.*;
 import arc.struct.ObjectMap.*;
 import mindustry.content.*;
+import mindustry.type.UnitType;
 import mindustry.ctype.*;
 import mindustry.entities.bullet.*;
 import mindustry.gen.*;
@@ -75,7 +76,8 @@ public class JVUnitTypes implements ContentList{
         EntityMapping.nameMap.put("bust", SplitUnitEntity::new);
         bust = new SplitUnitType("bust"){
            Float health = 100f;
-           String test = "hello!";
+           String text = "hello!";
+           UnitType splitUnit = bust;
         };
     };
 }
