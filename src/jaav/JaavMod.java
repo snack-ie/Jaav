@@ -7,7 +7,7 @@ import mindustry.content.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ctype.*;
-import jaav.content.*;
+import jaav.content.JVUnitTypes;
 
 public class JaavMod extends Mod{
 
