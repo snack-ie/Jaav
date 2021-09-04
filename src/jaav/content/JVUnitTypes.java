@@ -75,7 +75,7 @@ public class JVUnitTypes implements ContentList{
         EntityMapping.nameMap.put("bust", SplitUnitEntity::new);
         bust = new SplitUnitType("bust"){{
            health = 100f;
-           test = "hello!";
+           public String test = "hello!";
         }};
 
     };
