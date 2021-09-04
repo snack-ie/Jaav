@@ -4,20 +4,19 @@ import arc.*;
 import arc.util.*;
 import mindustry.*;
 import mindustry.content.*;
-import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
-import mindustry.ui.dialogs.*;
+import mindustry.ctype.*;
 import jaav.content.*;
 
 public class JaavMod extends Mod{
 
     private final ContentList[] content = {
-        // new JaavUnits()
+        new JVUnitTypes()
     };
 
     public JaavMod(){
-
+        super();
     }
     @Override
     public void loadContent(){
