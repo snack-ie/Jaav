@@ -13,7 +13,7 @@ import mindustry.type.*;
 import mindustry.world.meta.*;
 import jaav.entities.units.*;
 
-class JVUnitTypes implements ContentList{
+public class JVUnitTypes implements ContentList{
     //stole from progressed materials which stole from Endless Rusting which stole from Progressed Materials in the past which stole from BetaMindy
     private static Entry<Class<? extends Entityc>, Prov<? extends Entityc>>[] types = new Entry[]{
         prov(SplitUnitEntity.class, SplitUnitEntity::new)
