@@ -1,5 +1,16 @@
 package jaav.content;
 
+import arc.func.*;
+import arc.graphics.*;
+import arc.struct.*;
+import arc.struct.ObjectMap.*;
+import mindustry.content.*;
+import mindustry.ctype.*;
+import mindustry.entities.bullet.*;
+import mindustry.gen.*;
+import mindustry.graphics.*;
+import mindustry.type.*;
+import mindustry.world.meta.*;
 import jaav.entities.units.*;
 
 class JVUnitTypes implements ContentList{
