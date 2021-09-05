@@ -7,7 +7,7 @@ import mindustry.gen.*;
 public class SplitUnitEntity extends UnitEntity {
     
     UnitType splitUnit;
-    Number splitAmount;
+    int splitAmount;
     
     @Override
     public void killed(){
@@ -20,8 +20,8 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        this.splitUnit = type.splitUnit;
-        this.splitAmount = type.splitAmount;
+        splitUnit = type.splitUnit;
+        splitAmount = type.splitAmount;
     }
     
 }

@@ -5,7 +5,7 @@ import mindustry.ai.types.GroundAI;
 
 public class SplitUnitType extends UnitType {
     
-    public Number splitAmount = 2;
+    public int splitAmount = 2;
     public UnitType splitUnit;
     
     public SplitUnitType(String name){
