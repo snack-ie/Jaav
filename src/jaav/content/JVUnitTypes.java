@@ -74,10 +74,10 @@ public class JVUnitTypes implements ContentList{
         setupID();
 
         EntityMapping.nameMap.put("bust", SplitUnitEntity::new);
-        bust = new SplitUnitType("bust"){
+        bust = new SplitUnitType("bust") {{
            health = 100f;
            text = "hello!";
            splitUnit = bust;
-        };
+        }};
     };
 }
