@@ -21,8 +21,8 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        this.splitUnit = ((SplitUnitType)type).splitUnit;
-        this.splitAmount = ((SplitUnitType)type).splitAmount;
+        UnitType splitUnit = ((SplitUnitType)type).splitUnit;
+        int splitAmount = ((SplitUnitType)type).splitAmount;
     }
     
 }
