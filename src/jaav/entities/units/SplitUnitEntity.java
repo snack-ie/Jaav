@@ -1,5 +1,6 @@
 package jaav.entities.units;
 
+import jaav.entities.units.SplitUnitType;
 import arc.util.*;
 import mindustry.type.UnitType;
 import mindustry.gen.*;
@@ -12,7 +13,7 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void killed(){
         super.killed();
-        for (int i = 0; i < 2; i++)  {
+        for (int i = 0; i < splitAmount; i++)  {
             Log.info("Spawn: " + i);
         }
     }
@@ -20,8 +21,8 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        Log.info(type.splitUnit);
-        Log.info(type.splitAmount);
+        splitUnit = ((SplitUnitType)type).splitUnit;
+        splitAmount = ((SplitUnitType)type).splitAmount;
     }
     
 }

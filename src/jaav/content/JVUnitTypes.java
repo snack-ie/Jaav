@@ -78,7 +78,6 @@ public class JVUnitTypes implements ContentList{
            health = 100f;
            
            splitUnit = bust;
-           splitAmount = 2;
         }};
     };
 }
