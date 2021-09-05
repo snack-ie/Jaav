@@ -12,7 +12,7 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void killed(){
         super.killed();
-        for (int i = 0; i < splitAmount; i++)  {
+        for (int i = 0; i < 2; i++)  {
             Log.info("Spawn: " + i);
         }
     }
@@ -20,8 +20,8 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        splitUnit = type.splitUnit;
-        splitAmount = type.splitAmount;
+        Log.info(type.splitUnit);
+        Log.info(type.splitAmount);
     }
     
 }
