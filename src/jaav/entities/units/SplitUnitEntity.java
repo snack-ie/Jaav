@@ -22,7 +22,7 @@ public class SplitUnitEntity extends UnitEntity {
     @Override
     public void setType(UnitType type){
         super.setType(type);
-        Log.info("[jaav/setType] " + type)
+        Log.info("[jaav/setType] " + type);
         this.splitUnit = ((SplitUnitType)type).splitUnit;
         this.splitAmount = ((SplitUnitType)type).splitAmount;
     }
