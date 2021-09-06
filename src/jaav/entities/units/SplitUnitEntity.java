@@ -15,7 +15,7 @@ public class SplitUnitEntity extends UnitEntity {
         super.killed();
         for (int i = 0; i < splitAmount; i++)  {
             Log.info("[jaav/killed] spawned " + splitUnit);
-            splitUnit.spawn(team, x, y);
+            ((UnitType)splitUnit).spawn(team, x, y);
         }
     }
     
